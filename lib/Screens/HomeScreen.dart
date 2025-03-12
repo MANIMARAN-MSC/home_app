@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'CustomDrawer.dart';
-import 'custom_drawer.dart';
+import '../widgets/CustomDrawer.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
