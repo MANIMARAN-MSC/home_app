@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class RegisterScreen extends StatefulWidget {
+
+  final String title;
+
+  const RegisterScreen({super.key, required this.title});
+
   @override
   _RegisterScreenState createState() => _RegisterScreenState();
 }
